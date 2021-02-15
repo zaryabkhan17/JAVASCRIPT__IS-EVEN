@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to right, blue,rgb(56, 56, 252), rgb(63, 63, 255));
+    text-align: center;
+}
+input{
+    background-color: antiquewhite;
+    color: black;
+}
+button{
+    background-color: chocolate;
+    color: black;
+}

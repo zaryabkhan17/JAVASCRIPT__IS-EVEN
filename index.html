@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form onsubmit="return oddnumber()"> 
+    <input type="number" name="number" id="numbers" placeholder="enter number">
+    <button onclick="">check</button>
+    <h1 id="result"></h1>
+</form> 
+<script>
+    function oddnumber(){
+    var num = document.getElementById("numbers").value
+    document.getElementById("result").innerHTML=num
+    if(num % 2=== 0 === true){
+        document.getElementById("result").innerHTML= "true"
+    }
+    else{
+        document.getElementById("result").innerHTML ="false"
+    }
+    return false;
+
+    }
+</script>
+
+</body>
+</html>
